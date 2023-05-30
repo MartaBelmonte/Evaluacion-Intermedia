@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #ffcc00;
+    height: 100vh;
+}
+
+.bigsmile {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    margin-left: 80px;
+    font-size: 60px;
+}
+.section2 {
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    margin-top: 100px;
+}
+
+.updatebottom {
+    background-color: blue;
+    display: block;
+    justify-content: center;
+    width: 50px;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.smile, .angry {
+ background-color: white;
+ width: 80px;
+ height: 30px;
+ border: 1px solid black;
+border-radius: 5px;
+}
+
